@@ -1,0 +1,518 @@
+*{
+  line-height: 1.5;
+
+  
+
+}
+body {
+  display: block;
+  margin: 0;
+font-family: var(--bs-font-sans-serif);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #fff;
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h1 {
+  line-height: 1.5;
+}
+.container {
+  background-color: gray;
+  display: block;
+  
+}
+
+
+.mytasksblue {
+  background-color: lightblue;
+  border: 1 1 1 1;
+  border-radius: 1rem;
+}
+.card {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+border-radius: 0.25rem;
+
+
+
+}
+.whitecolor {
+color: white;
+}
+.greencolor {
+  color: green;
+}
+.greenbackground {
+  background-color: green;
+}
+.orangebackground {
+  background-color: #fd7e14;
+}
+.lightbluebackground {
+  background-color: lightblue;
+}
+.lightbluecolor {
+  color:  #0d6efd;
+
+}
+.bluebackground {
+  background-color: blue;
+}
+.bluecolor {
+color: blue;
+}
+.flex {
+  position: relative;
+  display: flex;
+}
+.topborder {
+  border-top: 1px solid rgba(0, 0, 0, 1);
+  font-style: solid;
+}
+.bottomborder {
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.rightborder {
+  border-right: 1px solid rgba(0, 0, 0, 1);
+}
+.solid {
+  font-weight: bold;
+}
+.buttons1 {
+  display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+user-select: none;
+
+border: 1px solid transparent;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+border-radius: 0.25rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.buttons2 {
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+color: white;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+user-select: none;
+background-color:transparent;
+
+border: 1px solid rgb(255, 255, 255);
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+border-radius: 0.25rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.buttoncolor-blue {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.buttoncolor-blue:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;}
+.floatright{
+  display: inline;
+  margin-left: auto;
+  line-height: 1.5;
+order: 2;
+  
+}
+.floatleft {
+  float:left;
+
+}
+.floatright2
+{
+float: right;
+}
+.block {
+  display: block;
+}
+
+
+.flex-box {
+  display: flex
+}
+.fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.fs-2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.fs-3 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fs-4 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.fs-5 {
+  font-size: 1.25rem !important;
+}
+
+.fs-6 {
+  font-size: 1rem !important;
+}
+
+.fst-italic {
+  font-style: italic !important;
+}
+
+.fst-normal {
+  font-style: normal !important;
+}
+@media (min-width: 1200px) {
+  body {
+    display: block !important;
+  }
+  .flex {
+    display: block;
+  }
+  .container {
+display: flex !important;
+
+
+}
+  .fs-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-4 {
+    font-size: 1.5rem !important;
+  }
+}
+
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.py-2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+
+.px-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.px-1 {
+  padding-right: 0.25rem !important;
+  padding-left: 0.25rem !important;
+}
+
+.px-2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+
+.px-3 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.px-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+.ps-0 {
+  padding-left: 0 !important;
+}
+
+.ps-1 {
+  padding-left: 0.25rem !important;
+}
+
+.ps-2 {
+  padding-left: 0.5rem !important;
+}
+
+.ps-3 {
+  padding-left: 1rem !important;
+}
+
+.ps-4 {
+  padding-left: 1.5rem !important;
+}
+
+.ps-5 {
+  padding-left: 3rem !important;
+}
+.textcenter {
+  text-align: center !important;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.my-sm-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.my-sm-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.my-sm-1 {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.my-sm-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.my-sm-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.my-sm-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.my-sm-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+/* Create three equal columns that floats next to each other */
+
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.my-1 {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.my-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.my-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.m-1 {
+  margin-bottom: -1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.dropdown:hover{
+  cursor:pointer;
+}
+.dropdown > a, .dropdown > button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 6px 20px 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown > a:before, .dropdown > button:before {
+  position: absolute;
+  right: 7px;
+  top: 12px;
+  content: ' ';
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dropdown input[type=checkbox] {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 0;
+}
+
+.dropdown input[type=checkbox]:checked {
+  position: fixed;
+  z-index:+0;
+  top: 0px; left: 0px; 
+  right: 0px; bottom: 0px;
+}
+
+.dropdown ul {
+  position: absolute;
+  top: 18px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  left: 0px;
+  list-style: none;
+  padding: 4px 0px;
+  display: none;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,.175);
+}
+
+.dropdown input[type=checkbox]:checked + ul {
+  display: block;
+}
+
+.dropdown ul li {
+  display: block;
+  padding: 6px 20px;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.dropdown ul li:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  display: block;
+  color: black
+}
+
+.dropdown .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  font-size: 1px;
+  padding: 0;
+}
+.zindex {
+  z-index: 7;
+}
+.navbar {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+background-color:blue;
+}
+.space-between {
+  justify-content: space-between;
+}
+.left {
+  margin-right: 15%;
+}
