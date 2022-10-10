@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    
 </head>
 <body class="  ">
     <nav class="flex navbar">
@@ -73,13 +77,13 @@
           </span>
         <div>Insperity</div>
         
-        <div class="textcenter floatright">
+        <div class="textcenter ">
             <i class="fa fa-search"></i>
             <input type="text" placeholder="Text here">
            
         </div>
        
-        <span class="dropdown floatright left zindex">
+        <span class="dropdown  zindex">
             <button>Action</button>
             <label>
               <input type="checkbox">
@@ -114,7 +118,7 @@
                 <div class="">Net Pay</div>
                 <div class="greencolor bottomborder">$1,000.00</div>
                 <div class="flex bordertop bottomborder">
-                    <div class=" ">Current Earnings</div>
+                    <div class=" "> Current Earnings</div>
                     <div class="floatright">$1,000.00</div>
                 </div>
                 <div class="flex bottomborder">
@@ -130,6 +134,8 @@
                     <div>W-2</div>
                 </div>
                 <button class=" buttons1 buttoncolor-blue"> Paycheck details</button>
+                <div>
+    <DIV ID="WORKCHART"></DIV></div>
                 </div>
             <div class="card p-3">
                 <div class=" ps-3 flex py-1 ">
@@ -146,26 +152,26 @@
                 <div class="solid p-3 ">Year-To-Date Contribution Analysis</div>
                 <div class="flex  "> 
                     <div>
-                        <div class="p-3 bottomborder solid ">Source</div>
-                        <div class="p-3 bottomborder ">Employee</div>
-                        <div class="p-3 bottomborder ">Employee</div>
+                        <div class="p-1 bottomborder solid ">Source</div>
+                        <div class="p-1 bottomborder ">Employee</div>
+                        <div class="p-1 bottomborder ">Employee</div>
                     </div>
                     <div>
-                        <div  class="p-3 bottomborder solid ">Year-to-Date</div>
-                        <div class="p-3 bottomborder">$****.**</div>
-                        <div class="p-3 bottomborder ">$****.**</div>
+                        <div  class="p-1 bottomborder solid ">Year-to-Date</div>
+                        <div class="p-1 bottomborder">$****.**</div>
+                        <div class="p-1 bottomborder ">$****.**</div>
                     </div>
                   
                     <div>
-                        <div class="p-3 bottomborder solid">Last Amount</div>
-                        <div class="p-3 bottomborder ">$****.**</div>
-                        <div class="p-3  bottomborder ">$****.**</div>
+                        <div class="p-1 bottomborder solid">Last Amount</div>
+                        <div class="p-1 bottomborder ">$****.**</div>
+                        <div class="p-1  bottomborder ">$****.**</div>
                     </div>
                    
                     <div class="">
-                        <div class="p-3  bottomborder solid">Last Date</div>
-                        <div class="p-3  bottomborder ">09/26/2022</div>
-                        <div class="p-3  bottomborder ">09/26/2022</div>
+                        <div class="p-1  bottomborder solid">Last Date</div>
+                        <div class="p-1  bottomborder ">09/26/2022</div>
+                        <div class="p-1  bottomborder ">09/26/2022</div>
                             
                     </div>
                    
@@ -296,6 +302,6 @@
     
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/7d2a184530.js" crossorigin="anonymous"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
+
 </body>
 </html>
